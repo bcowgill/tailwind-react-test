@@ -3,12 +3,12 @@ A test repository for using Tailwind CSS tools with Create React App
 
 # Creation log
 
-Created github repo using node template for .gitignore file.
+## 1. Created github repo using node template for .gitignore file.
 
 created .nvmrc file use node version v15.12.0 tailwind wants 12.13+
 created env.local file to nvm use
 
-Following procedure from [Tailwind CSS site](https://tailwindcss.com/docs/guides/create-react-app)
+## 2. Following procedure from [Tailwind CSS site](https://tailwindcss.com/docs/guides/create-react-app)
 
 ```
 npx create-react-app tailwind-react-test
@@ -42,16 +42,26 @@ Changes to be committed:
         new file:   yarn.lock
 ```
 
-Says to install Tailwind next:
+## 3. Says to install Tailwind next:
 
 ```
 npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 ```
 
-and then CRACO to change the build scripts
+## 4. and then CRACO to change the build scripts
 
 ```
 npm install @craco/craco
+```
+
+Then create craco.config.js and modify package.json as suggested in the docs.
+
+If you want to use other PostCSS plugins with tailwind see the [Tailwind PostCSS documentation](https://tailwindcss.com/docs/using-with-preprocessors)
+
+## 5. Then create your Tailwind configuration
+
+```
+npx tailwindcss init
 ```
 
 # Getting Started with Create React App (section created by create-react-app)
