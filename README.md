@@ -48,7 +48,7 @@ Changes to be committed:
 npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 ```
 
-## 4. and then CRACO to change the build scripts
+## 4. and then CRACO to change the build scripts for PostCSS
 
 ```
 npm install @craco/craco
@@ -63,6 +63,8 @@ If you want to use other PostCSS plugins with tailwind see the [Tailwind PostCSS
 ```
 npx tailwindcss init
 ```
+
+See the [Tailwind CSS configuration documentation](https://tailwindcss.com/docs/configuration) and [Production optimisation](https://tailwindcss.com/docs/optimizing-for-production)
 
 # Getting Started with Create React App (section created by create-react-app)
 
