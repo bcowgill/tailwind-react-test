@@ -66,6 +66,35 @@ npx tailwindcss init
 
 See the [Tailwind CSS configuration documentation](https://tailwindcss.com/docs/configuration) and [Production optimisation](https://tailwindcss.com/docs/optimizing-for-production)
 
+Configured tailwind.config.js, index.css and index.js
+
+Read our documentation on [adding base styles](https://tailwindcss.com/docs/adding-base-styles), [extracting components](https://tailwindcss.com/docs/extracting-components), and [adding new utilities](https://tailwindcss.com/docs/adding-new-utilities) for best practices on extending Tailwind with your own custom CSS.
+
+## 5. Finished, run the thing!
+
+```
+npm install serve
+npm run test
+npm run start
+npm run build
+serve -s build
+```
+
+There is a warning about vulnerabilities:
+
+```
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+```
+
+## 6. Next, learn how to use Tailwind
+
+[Learn Tailwind](https://tailwindcss.com/docs/utility-first)
+
+
 # Getting Started with Create React App (section created by create-react-app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
