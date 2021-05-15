@@ -42,6 +42,18 @@ Changes to be committed:
         new file:   yarn.lock
 ```
 
+Says to install Tailwind next:
+
+```
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+```
+
+and then CRACO to change the build scripts
+
+```
+npm install @craco/craco
+```
+
 # Getting Started with Create React App (section created by create-react-app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
