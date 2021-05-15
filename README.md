@@ -94,6 +94,10 @@ To address all issues possible (including breaking changes), run:
 
 [Learn Tailwind](https://tailwindcss.com/docs/utility-first)
 
+## 7. Examine the CSS produced by Tailwind CSS
+
+Created a *css-pretty* build target that does the build then prettifies the output CSS and puts it in the *src/built-css-prettified.css* file for examination.
+
 
 # Getting Started with Create React App (section created by create-react-app)
 

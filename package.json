@@ -20,6 +20,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "precss-pretty": "npm run build",
+    "css-pretty": "prettydiff.sh build/static/css/main.*.chunk.css > src/built-css-prettified.css",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
