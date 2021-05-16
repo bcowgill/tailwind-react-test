@@ -24,6 +24,7 @@
 		"prettier:json": "prettier --parser json --write *.json{,5} .*.json{,5}",
 		"preprettier": "npm run prettier:json",
 		"prettier": "prettier --write src public",
+		"pretty": "npm run prettier",
 		"precss-pretty": "npm run build",
 		"css-pretty": "prettydiff.sh build/static/css/main.*.chunk.css > src/built-css-prettified.css",
 		"eject": "react-scripts eject"

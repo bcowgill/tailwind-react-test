@@ -3,12 +3,16 @@
 module.exports = {
   // https://tailwindcss.com/docs/optimizing-for-production
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // false or 'media' or 'class'
   theme: {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+        transform: ['active'],
+        skew: ['active'],
+        rotate: ['active']
+    },
   },
   plugins: [],
 }

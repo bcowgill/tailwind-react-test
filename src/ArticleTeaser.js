@@ -1,8 +1,12 @@
+import { bg, fg } from './theme'
+
 export default function ArticleTeaser() {
 	// stacked layout small screens side by side on larger screens
 	return (
 		<div className="p-4">
-			<div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+			<div
+				className={`max-w-md mx-auto ${bg()} ${fg()} rounded-xl shadow-md overflow-hidden md:max-w-2xl`}
+			>
 				<div className="md:flex">
 					<div className="md:flex-shrink-0">
 						<img
@@ -16,7 +20,7 @@ export default function ArticleTeaser() {
 							Case study
 						</div>
 						<a
-							href="#"
+							href="/"
 							className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
 						>
 							Finding customers for your new business
