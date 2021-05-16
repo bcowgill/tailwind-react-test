@@ -1,0 +1,11 @@
+build
+node_modules
+bower_components
+doc
+./coverage
+.nyc_output
+.git
+.eslintcache
+.stylelintcache
+# emacs lock files should be ignored by prettier
+.#*.*
