@@ -10,18 +10,18 @@
 @tailwind utilities;
 
 .btn {
-  @apply py-2 px-4 font-semibold rounded-lg shadow-md;
+	@apply py-2 px-4 font-semibold rounded-lg shadow-md;
 }
 .btn-green {
-  @apply text-white bg-green-500 hover:bg-green-700;
+	@apply text-white bg-green-500 hover:bg-green-700;
 }
 
 .vue {
-  @apply py-2 px-4 font-bold rounded
+	@apply py-2 px-4 font-bold rounded;
 }
 
 .btn-blue {
-  @apply text-white bg-blue-500 hover:bg-blue-700
+	@apply text-white bg-blue-500 hover:bg-blue-700;
 }
 
 /*
