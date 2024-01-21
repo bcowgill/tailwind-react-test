@@ -10,10 +10,33 @@ import { bg, fg } from './theme'
 import logo from './logo.svg'
 import './App.css'
 
+const EMPTY = true
+
 function App() {
 	return (
 		<div className={`App ${bg()} ${fg()}`}>
 			<header className="App-header">
+				<Header />
+			</header>
+			<main className="bg-gray-300 dark:bg-gray-700 p-2 hover:bg-gray-600">
+				<Main />
+			</main>
+			<footer>
+				<Footer />
+				<ScreenSize />
+				<ThemePicker />
+			</footer>
+			<div className="h-16">
+				<hr />
+			</div>
+		</div>
+	)
+}
+
+function Header() {
+	return (
+		EMPTY || (
+			<>
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
 					Edit <code>src/App.js</code> and save to reload!!.
@@ -22,22 +45,30 @@ function App() {
 				<NewTabLink href="https://tailwindcss.com/docs/utility-first">
 					Learn Tailwind CSS
 				</NewTabLink>
-			</header>
-			<main className="bg-gray-300 dark:bg-gray-700 p-2 hover:bg-gray-600">
+			</>
+		)
+	)
+}
+
+function Main() {
+	return (
+		EMPTY || (
+			<>
 				<MessageForYou />
 				<ArticleTeaser />
-			</main>
-			<footer>
+			</>
+		)
+	)
+}
+function Footer() {
+	return (
+		EMPTY || (
+			<>
 				<MessageMe />
 				<ButtonComponents />
 				<EmailSignup />
-				<ScreenSize />
-				<ThemePicker />
-			</footer>
-			<div className="h-16">
-				<hr />
-			</div>
-		</div>
+			</>
+		)
 	)
 }
 export default App

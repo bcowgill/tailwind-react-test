@@ -42,7 +42,7 @@ export default function ThemePicker() {
 
 	return (
 		<button className="m-2 btn btn-blue" onClick={handleClick}>
-			{theme ? theme : 'OS default'}
+			theme: {theme ? theme : 'OS default'}
 		</button>
 	)
 }
