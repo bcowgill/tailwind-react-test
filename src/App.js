@@ -8,9 +8,10 @@ import NewTabLink from './NewTabLink'
 import MessageMe from './MessageMe'
 import { bg, fg } from './theme'
 import logo from './logo.svg'
+import Play from './Play'
 import './App.css'
 
-const EMPTY = true
+const EMPTY = false
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			</header>
 			<main className="bg-gray-300 dark:bg-gray-700 p-2 hover:bg-gray-600">
 				<Main />
+				<Play />
 			</main>
 			<footer>
 				<Footer />
